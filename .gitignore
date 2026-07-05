@@ -1,0 +1,4 @@
+*.TXT
+!examples/*.TXT
+.DS_Store
+Thumbs.db

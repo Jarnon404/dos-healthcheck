@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate repository files
+        run: |
+          test -f README.md
+          test -f scripts/HEALTH.BAT
+          test -f scripts/HEALTH6.BAT
+          test -f index.html
+          grep -q "MS-DOS 3.x" README.md
+          grep -q "MS-DOS 6.x" README.md
+      - name: Check for dangerous DOS write operations
+        run: |
+          ! grep -RniE "FORMAT|FDISK|DELTREE|SYS C:|ATTRIB \+H|COPY .*CONFIG\.SYS|COPY .*AUTOEXEC\.BAT" scripts || exit 1

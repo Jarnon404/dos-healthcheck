@@ -1,0 +1,11 @@
+DOS HEALTHCHECK / SYSTEM AUDIT
+Compatible with MS-DOS 3.x, 4.x, 5.x and 6.x
+
+[DOS VERSION]
+MS-DOS Version 6.22
+
+[PATH]
+PATH=C:\DOS;C:\UTILS
+
+[NOTES]
+Example report only. Real output varies by DOS version and hardware.

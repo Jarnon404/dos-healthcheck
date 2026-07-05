@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DOS Healthcheck</title>
+  <meta name="description" content="Retro-style DOS 3.x, 4.x, 5.x and 6.x system audit and health check toolkit.">
+  <style>
+    :root{color-scheme:dark;--bg:#050805;--panel:#081208;--text:#9cff9c;--muted:#72b872;--line:#1f5f1f;--accent:#d6ffd6}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#102010,#050805 55%);color:var(--text);font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;line-height:1.6}.wrap{max-width:980px;margin:0 auto;padding:32px 20px}.screen{border:1px solid var(--line);background:linear-gradient(180deg,rgba(8,18,8,.96),rgba(4,10,4,.96));box-shadow:0 0 30px rgba(80,255,80,.12);padding:28px;border-radius:12px}h1,h2{color:var(--accent);line-height:1.2}a{color:var(--accent)}.prompt{color:#fff}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}.card{border:1px solid var(--line);padding:18px;border-radius:10px;background:#071007}.muted{color:var(--muted)}pre{white-space:pre-wrap;border:1px solid var(--line);padding:16px;border-radius:10px;background:#020602}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}.button{border:1px solid var(--text);padding:10px 14px;border-radius:8px;text-decoration:none}.button:hover{background:#113311}</style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="screen">
+      <p class="prompt">C:\&gt; HEALTH.BAT</p>
+      <h1>DOS Healthcheck</h1>
+      <p>Retro-style system audit and health check toolkit for MS-DOS 3.x, 4.x, 5.x and 6.x machines.</p>
+      <div class="actions">
+        <a class="button" href="https://github.com/Jarnon404/dos-healthcheck">Repository</a>
+        <a class="button" href="https://github.com/Jarnon404/dos-healthcheck/releases">Releases</a>
+      </div>
+    </section>
+    <section class="grid" style="margin-top:20px">
+      <article class="card"><h2>DOS 3.x / 4.x</h2><p class="muted">Conservative baseline checks using classic commands and syntax.</p></article>
+      <article class="card"><h2>DOS 5.x</h2><p class="muted">Baseline audit with more useful memory reporting where available.</p></article>
+      <article class="card"><h2>DOS 6.x</h2><p class="muted">Extended script with detailed memory reporting and DOS 6.x tool checks.</p></article>
+    </section>
+    <section class="screen" style="margin-top:20px">
+      <h2>Output</h2>
+      <pre>DOS-REPORT.TXT
+DOS6-REPORT.TXT</pre>
+      <p class="muted">Read-only by design. The scripts collect command output and do not modify CONFIG.SYS or AUTOEXEC.BAT.</p>
+    </section>
+  </main>
+</body>
+</html>
