@@ -1,4 +1,9 @@
-*.TXT
-!examples/*.TXT
-.DS_Store
-Thumbs.db
+# Generated DOS reports
+DOS-REPORT.TXT
+DOS6-REPORT.TXT
+
+# Temporary/editor files
+*.tmp
+*.bak
+*.swp
+*~
