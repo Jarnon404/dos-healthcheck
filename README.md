@@ -45,3 +45,7 @@ Because many IT careers started long before dashboards, agents and cloud portals
 ## Safety model
 
 The scripts are read-only. They collect command output into text reports and do not change `CONFIG.SYS`, `AUTOEXEC.BAT` or system files.
+
+## Public safety note
+
+This repository is intended to contain only public-safe material. Do not commit customer-specific data, tenant identifiers, credentials, generated audit reports, internal hostnames, private IP addresses or environment-specific exports.

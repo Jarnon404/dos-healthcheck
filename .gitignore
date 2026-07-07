@@ -7,3 +7,6 @@ DOS6-REPORT.TXT
 *.bak
 *.swp
 *~
+
+# Allow GitHub Pages entry point
+!docs/index.html
