@@ -1,5 +1,9 @@
 # DOS Healthcheck
 
+[![CI](https://github.com/Jarnon404/dos-healthcheck/actions/workflows/ci.yml/badge.svg)](https://github.com/Jarnon404/dos-healthcheck/actions/workflows/ci.yml)
+[![Deploy GitHub Pages](https://github.com/Jarnon404/dos-healthcheck/actions/workflows/pages.yml/badge.svg)](https://github.com/Jarnon404/dos-healthcheck/actions/workflows/pages.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Retro-style system audit and health check toolkit for MS-DOS era machines.
 
 This project is intentionally simple: plain batch files, classic DOS commands and text-based reports. The goal is to document the kind of system state that mattered in the DOS era: DOS version, conventional memory, CONFIG.SYS, AUTOEXEC.BAT, PATH, disk status and loaded tools or drivers.
